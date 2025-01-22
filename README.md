@@ -3,3 +3,6 @@ Simple sigrok decoder to read a digital signal as hex string. I used it to repla
 
 
 ![pulseview](extras/pulseview.png)
+
+## How to use
+Set env. var. SIGROKDECODE_DIR to point to this decoder's directory, export it and start pulseview. This decoder should appear in the list of the decoders. For more information see [sigrok wiki](https://sigrok.org/wiki/Protocol_decoder_HOWTO).
